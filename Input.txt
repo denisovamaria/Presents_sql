@@ -1,0 +1,43 @@
+
+Galaxy Watch 4
+2500
+Galaxy Buds Pro
+200
+Apple
+3
+iPad Pro
+800
+AirPods Pro
+250
+Apple Watch Series 6
+400
+Google
+3
+Pixel 5
+700
+Pixel Buds
+180
+Nest Hub Max
+230
+Sony
+2
+Xperia 1 II
+1100
+WH-1000XM4 Wireless Noise-Cancelling Headphones
+350
+Microsoft
+3
+Surface Pro 7
+750
+Surface Headphones 2
+250
+Xbox Series X
+500
+LG
+3
+LG V60 ThinQ 5G
+800
+LG OLED CX Series TV
+1500
+LG TONE Free HBS-FN6 Wireless Earbuds
+150

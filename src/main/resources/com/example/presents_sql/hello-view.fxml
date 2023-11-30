@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="410.0" prefWidth="399.0" style="-fx-background-color: #bdb8f9; -fx-border-width: 1.5px;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.presents_sql.HelloController">
+    <ComboBox fx:id="comboBox" layoutX="201.0" layoutY="50.0" onAction="#selPres" prefHeight="26.0" prefWidth="170.0" promptText="Choose the manufacturer" style="-fx-background-color: #f5cf47; -fx-border-color: black; -fx-border-width: 1.5px;" />
+    <Label fx:id="label" alignment="TOP_LEFT" layoutX="21.0" layoutY="50.0" prefHeight="17.0" prefWidth="102.0" text="Manufacturer:" textOverrun="CLIP" AnchorPane.leftAnchor="21.0">
+        <font>
+            <Font name="Helvetica Neue" size="16.0" />
+        </font></Label>
+    <ComboBox fx:id="comboBox1" layoutX="201.0" layoutY="120.0" prefHeight="26.0" prefWidth="170.0" promptText="Choose the present" style="-fx-background-color: #f5cf47; -fx-border-color: black; -fx-border-width: 1.5px;" />
+    <Label fx:id="label1" alignment="TOP_LEFT" layoutX="109.0" layoutY="190.0" prefHeight="17.0" prefWidth="102.0" text="Present" AnchorPane.leftAnchor="109.0">
+        <font>
+            <Font name="Helvetica Neue" size="16.0" />
+        </font></Label>
+    <Label alignment="TOP_LEFT" layoutX="21.0" layoutY="190.0" prefHeight="17.0" prefWidth="203.0" text="Do you have a loyalty card?" AnchorPane.leftAnchor="21.0">
+        <font>
+            <Font name="Helvetica Neue" size="16.0" />
+        </font></Label>
+    <CheckBox layoutX="277.0" layoutY="190.0" mnemonicParsing="false" onAction="#card" style="-fx-border-color: #f5cf47; -fx-border-width: 1.5px;" />
+    <Label fx:id="label2" layoutX="197.0" layoutY="321.0" prefHeight="20.0" prefWidth="160.0">
+        <font>
+            <Font name="Helvetica Neue" size="16.0" />
+        </font></Label>
+    <Button layoutX="146.0" layoutY="317.0" mnemonicParsing="false" onAction="#calcPrice" prefHeight="27.0" prefWidth="132.0" style="-fx-background-color: #f5cf47; -fx-border-color: black; -fx-border-width: 1.5px;" text="Calculate price" AnchorPane.leftAnchor="21.0">
+        <font>
+            <Font name="Helvetica Neue" size="14.0" />
+        </font></Button>
+    <Label layoutX="21.0" layoutY="260.0" text="Do you need delivery?" AnchorPane.leftAnchor="21.0">
+        <font>
+            <Font name="Helvetica Neue" size="16.0" />
+        </font></Label>
+    <CheckBox layoutX="277.0" layoutY="260.0" mnemonicParsing="false" onAction="#delivery" style="-fx-border-color: #f5cf47; -fx-border-width: 1.5px;" />
+</AnchorPane>
